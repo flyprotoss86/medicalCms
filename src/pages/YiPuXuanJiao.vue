@@ -33,6 +33,7 @@ export default {
       listZhuanti: [
         {title:'医疗宣教', img: 'http://10.3.100.200/chuiyangliu/statics/images/first-120/pic1.png'},
         {title:'医疗宣教', img: 'http://10.3.100.200/chuiyangliu/statics/images/first-120/pic1.png'},
+        {title:'医疗宣教', img: 'http://10.3.100.200/chuiyangliu/statics/images/first-120/pic1.png'},
         {title:'医疗宣教', img: 'http://10.3.100.200/chuiyangliu/statics/images/first-120/pic1.png'}
       ]
     }

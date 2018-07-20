@@ -1,14 +1,15 @@
 @import './layout.styl'
 
-btn($size=14px,$color=#fff,$bgcolor=#F04752,$padding=5px,$radius=5px){
+btn($size=14px,$color=#fff,$bgcolor=#F04752,$padding=5px,$radius=5px,
+$border=1px,$bordercolor=#F04752,$lineheight=1){
   padding: $padding;
   background-color: $bgcolor;
   border-radius: $radius;
-  border: 1px solid $bgcolor;
+  border: $border solid $bordercolor;
   font-size: $size;
   color: $color;
   text-align: center;
-  line-height: 1;
+  line-height: $lineheight;
   display: inline-block;
 }
 
@@ -17,6 +18,11 @@ bgimg($img){
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+bgimgnoimg(){
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
 }
 
 list($direction=column){
