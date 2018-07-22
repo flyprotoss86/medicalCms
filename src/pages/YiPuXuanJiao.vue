@@ -17,12 +17,21 @@
 <script>
 import SwiperAd from '@/components/SwiperAd'
 import ListZhuanti from '@/components/ListZhuanti'
-
+import axios from 'axios'
 
 
 export default {
   name: "YiPuXuanJiao",
   components: {ListZhuanti, SwiperAd},
+  mounted () {
+    axios.get('./data/index.json').then(this.getInfoSucc)
+
+  },
+  methods () {
+    getInfoSucc (res) {
+
+    }
+  },
   data(){
     return {
       //轮播图设置
